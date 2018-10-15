@@ -39,13 +39,13 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
 }
 .menu {
   padding: 0em; 
-  font-family: 'Nunito', sans-serif;
 }
 
 .menu a {
   display: block;
   padding: 0em 1.5em;
   text-decoration: none;
+  font-family: 'Nunito', sans-serif;
 }
 
 .images {
