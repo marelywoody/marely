@@ -47,6 +47,32 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
   text-decoration: none;
 }
 
+.images {
+  /* background: #FFE1EB; */
+  border-top: 0.7em solid #85334B;
+  padding: 0em 4em;
+}
+
+.title {
+  padding: 1em 0em;
+  text-align: center;
+  color: #85334B;
+}
+
+.images .conta-imagen {
+  margin-bottom: 2em;
+  margin-top: 2em;
+  overflow: hidden;
+}
+.images .conta-imagen a {
+  background: #853366;
+  display: inline-block;
+}
+
+.images .conta-imagen:hover img {
+  opacity: 0.3;
+}
+
 /* Tamaños de pantalla */
 @media screen and (max-width:991px){
   .name {
