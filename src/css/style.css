@@ -1,1 +1,71 @@
-/* font-family: 'Courgette', cursive; */
+body {
+  background: #FDFCFF;
+  font-family: 'Courgette', cursive;
+}
+
+header {
+  margin-top: 1.5em;
+}
+ /* formato del nav */
+.nav {
+  min-height: 4em;
+  overflow: hidden;
+  background: #D8516B;
+  color: #E7E8E8;
+}
+
+/* poniendo color a los icon del nav */
+.fa-spa {
+  color: #EEC8BF;
+}
+
+/* Modificando */
+
+.name h1, .name p {
+  font-size: 1.5em;
+  display: inline-block;
+  margin: 0em;
+}
+
+.name h1 {
+  text-transform: uppercase;
+}
+
+nav .c-1, nav .c-2, nav .c-3 {
+  color: #E7E8E8; 
+}
+nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
+  background: #E72B6C;
+}
+.menu {
+  padding: 0em; 
+}
+
+.menu a {
+  display: block;
+  padding: 0em 1.5em;
+  text-decoration: none;
+}
+
+/* Tamaños de pantalla */
+@media screen and (max-width:991px){
+  .name {
+    height: 4em;
+  }
+
+  .menu {
+    min-height: 4em;
+  }
+  .menu a, .menu a div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:575px) {
+  header {
+      margin-top: 0em;
+  }
+  .name h1, .name p {
+    font-size: 1em;
+  }
+}
