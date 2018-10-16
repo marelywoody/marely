@@ -1,6 +1,6 @@
 body {
   background: #FDFCFF;
-  font-family: 'Courgette', cursive;
+  font-family: 'Nunito', sans-serif;
 }
 
 header {
@@ -19,18 +19,20 @@ header {
   color: #EEC8BF;
 }
 
-/* Modificando */
+/* Modificando la parte del nombre en nav*/
 
 .name h1, .name p {
   font-size: 1.5em;
   display: inline-block;
   margin: 0em;
+  font-family: 'Courgette', cursive;
 }
 
 .name h1 {
   text-transform: uppercase;
 }
 
+/* Modificando la parte del menu */
 nav .c-1, nav .c-2, nav .c-3 {
   color: #E7E8E8; 
 }
@@ -45,11 +47,10 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
   display: block;
   padding: 0em 1.5em;
   text-decoration: none;
-  font-family: 'Nunito', sans-serif;
 }
 
+/* portafolio */
 .images {
-  /* background: #FFE1EB; */
   border-top: 0.7em solid #85334B;
   padding: 0em 4em;
 }
@@ -72,6 +73,16 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
 
 .images .conta-imagen:hover img {
   opacity: 0.3;
+}
+
+.images .modal-dialog {
+  margin: 0em auto;
+  height: 100em;
+  max-width: 100em;
+}
+
+.images .modal-content {
+  width: auto;
 }
 
 /* Tamaños de pantalla */
