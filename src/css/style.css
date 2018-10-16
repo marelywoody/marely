@@ -49,6 +49,13 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
   text-decoration: none;
 }
 
+/* perfil */
+
+#photo-perfil {
+  width: 10em;
+  height: 12em;
+}
+
 /* portafolio */
 .images {
   border-top: 0.7em solid #85334B;
@@ -59,6 +66,7 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
   padding: 1em 0em;
   text-align: center;
   color: #85334B;
+  font-size: 2em;
 }
 
 .images .conta-imagen {
