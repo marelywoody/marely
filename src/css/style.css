@@ -51,15 +51,17 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
 
 /* perfil */
 
+.perfil, .images {
+  border-top: 0.7em solid #85334B;
+  padding: 0em 4em;
+}
+
 #photo-perfil {
   width: 10em;
   height: 12em;
-}
-
-/* portafolio */
-.images {
-  border-top: 0.7em solid #85334B;
-  padding: 0em 4em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  overflow: hidden;
 }
 
 .title {
@@ -68,6 +70,8 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
   color: #85334B;
   font-size: 2em;
 }
+
+/* portafolio */
 
 .images .conta-imagen {
   margin-bottom: 2em;
