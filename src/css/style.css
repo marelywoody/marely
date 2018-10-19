@@ -64,6 +64,10 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
   overflow: hidden;
 }
 
+.photo {
+  text-align: center;
+}
+
 .title {
   padding: 1em 0em;
   text-align: center;
