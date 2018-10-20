@@ -59,7 +59,7 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
 #photo-perfil {
   width: 10em;
   height: 12em;
-  margin-top: 2em;
+  margin-top: -25em;
   margin-bottom: 2em;
   overflow: hidden;
 }
