@@ -75,6 +75,13 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
   font-size: 2em;
 }
 
+.acerca {
+  margin-top: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
 /* portafolio */
 
 .images .conta-imagen {
