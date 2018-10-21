@@ -141,7 +141,7 @@ h2 {
   background: #ffffff;
 }
 
-#linkedin, #github {
+#linkedin, #github, #cv {
   text-decoration: none;
 }
 
@@ -149,8 +149,13 @@ h2 {
   color: #0073b1;
 }
 
-#github {
+#github, #cv {
   color: #000000;
+}
+
+#cv {
+  font-size: 5em;
+  font-family: 'Vollkorn', serif;
 }
 
 /* Tamaños de pantalla */
