@@ -98,6 +98,7 @@ h2 {
   font-size: 1.1em;
   margin-bottom: 0.4em;  
 }
+
 /* portafolio */
 
 .images .conta-imagen {
@@ -122,6 +123,26 @@ h2 {
 
 .images .modal-content {
   width: auto;
+}
+
+.info {
+  position: absolute;
+  top: 0em;
+  width: 100%;
+  padding: 1em;
+  z-index: 10;
+  text-align: center;
+  margin-top: 1em;
+  color: #ffffff;
+  opacity: 0;
+}
+
+.info2 {
+  margin-top: 2.5em;
+}
+
+.images .conta-imagen:hover .info {
+  opacity: 1;
 }
 
 /* links */
