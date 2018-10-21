@@ -137,9 +137,22 @@ h2 {
   line-height: 100px;
   text-align: center;
   display: inline-block;
-  margin: 0em 1em;
+  margin: 0em 0em;
+  background: #ffffff;
+}
+
+#linkedin, #github {
   text-decoration: none;
 }
+
+#linkedin {
+  color: #0073b1;
+}
+
+#github {
+  color: #000000;
+}
+
 /* Tamaños de pantalla */
 @media screen and (max-width:991px){
   .name {
