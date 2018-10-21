@@ -154,6 +154,7 @@ h2 {
 }
 
 #cv {
+  text-decoration: none;
   font-size: 5em;
   font-family: 'Vollkorn', serif;
 }
