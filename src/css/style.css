@@ -211,6 +211,10 @@ h2 {
     font-size: 1em;
     padding: 0em;
   }
+
+  .images {
+    padding: 0em 1em;
+  }
 }
 
 @media screen and (min-width: 992px) {
