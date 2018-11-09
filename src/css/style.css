@@ -6,6 +6,14 @@ body {
 header {
   margin-top: 1.5em;
 }
+
+.heade {
+  position: fixed;
+  z-index: 1;
+  padding: 0em;
+  top: 0em;
+}
+
  /* formato del nav */
 .nav {
   min-height: 4em;
@@ -79,6 +87,7 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
   text-align: center;
   color: #85334B;
   font-size: 2em;
+  margin-top: 15%;
 }
 
 .acerca {
@@ -193,6 +202,10 @@ h2 {
   .menu a, .menu a div {
     width: 100%;
   }
+
+  .title {
+    margin-top: 27%;
+  }
 }
 
 @media screen and (max-width:575px) {
@@ -200,9 +213,18 @@ h2 {
   header {
       margin-top: 0em;
   }
-
+  
   .name h1, .name p {
     font-size: 1em;
+  }
+
+  .name p {
+    width: 7em;
+    text-align: center;
+  }
+
+  .title {
+    margin-top: 62%;
   }
 
   .perfil-user {
@@ -222,3 +244,4 @@ h2 {
     margin-top: -30em;
   }
 }
+
