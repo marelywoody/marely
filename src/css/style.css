@@ -9,7 +9,7 @@ header {
 
 .heade {
   position: fixed;
-  z-index: 1;
+  z-index: 15;
   padding: 0em;
   top: 0em;
 }
