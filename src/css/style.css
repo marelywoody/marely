@@ -237,6 +237,12 @@ h2 {
   .images {
     padding: 0em 0em;
   }
+
+  .info {
+    font-size: 12px;
+    margin-left: -5px;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
