@@ -155,6 +155,11 @@ h2 {
   opacity: 1;
 }
 
+#cesar, #data, #registro, #social {
+  text-decoration: none #000000;
+  color: #000000;
+}
+
 /* links */
 
 .links {
@@ -239,7 +244,7 @@ h2 {
   }
 
   .info {
-    font-size: 8px;
+    font-size: 10px;
     margin-left: -5px;
   }
 
