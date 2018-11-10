@@ -59,6 +59,10 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
 
 /* perfil */
 
+#top-perfil {
+  top: -1em;
+}
+
 .perfil, .images, .links {
   border-top: 0.7em solid #85334B;
   padding: 0em 4em;
@@ -87,7 +91,7 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
   text-align: center;
   color: #85334B;
   font-size: 2em;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .acerca {
@@ -108,6 +112,10 @@ h2 {
   margin-bottom: 0.4em;  
 }
 
+.list {
+  display: flex;
+  flex-flow: nowrap;
+}
 /* portafolio */
 
 .images .conta-imagen {
@@ -209,7 +217,7 @@ h2 {
   }
 
   .title {
-    margin-top: 27%;
+    margin-top: 21%;
   }
 }
 
@@ -229,7 +237,7 @@ h2 {
   }
 
   .title {
-    margin-top: 62%;
+    margin-top: 34%;
   }
 
   .perfil-user {
@@ -252,7 +260,7 @@ h2 {
 
 @media screen and (min-width: 992px) {
   .photo {
-    margin-top: -30em;
+    margin-top: -18em;
   }
 }
 
