@@ -4,6 +4,8 @@ body {
 }
 
 header {
+  /* ESTO FUE MODIFICADO
+  } */
   /* margin-top: 1.5em; */
   margin-top: 0em;
 }
@@ -78,6 +80,8 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
 }
 
 .perfil-user {
+  /* ESTO FUE MODIFICADO
+  } */
   /*margin: 1em; */
   margin-bottom: 1em;
   font-size: 1em;
@@ -245,7 +249,13 @@ h2 {
     position: relative;
     top: 7em;
   }
-
+  /* ESTO FUE MODIFICADO
+  } */
+  .container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  
   .perfil-user {
     margin: 0em;
     margin-bottom: 1em;
@@ -253,6 +263,8 @@ h2 {
     padding: 0em;
   }
   
+  /* ESTO FUE MODIFICADO
+  } */
   .text-justify {
    padding: 1em;
   }
