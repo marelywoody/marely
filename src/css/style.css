@@ -240,7 +240,7 @@ h2 {
   /* .title {
     margin-top: 46%;
   } */
-
+  
   #main-top {
     position: relative;
     top: 7em;
@@ -251,6 +251,10 @@ h2 {
     margin-bottom: 1em;
     font-size: 1em;
     padding: 0em;
+  }
+  
+  .text-justify {
+   padding: 1em;
   }
 
   .images {
