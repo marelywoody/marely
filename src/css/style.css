@@ -270,7 +270,9 @@ h2 {
   }
 
   .images {
-    padding: 0em 0em;
+    /* ESTO FUE MODIFICADO
+  } */
+    padding: 0em 1em;
   }
 
   .info {
