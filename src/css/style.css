@@ -121,6 +121,12 @@ h2 {
   display: flex;
   flex-flow: nowrap;
 }
+
+#habilidades, #tecno {
+  padding: 0px;
+  width: 22em;
+}
+
 /* portafolio */
 
 .images .conta-imagen {
@@ -247,7 +253,7 @@ h2 {
   
   #main-top {
     position: relative;
-    top: 7em;
+    top: 5em;
   }
   /* ESTO FUE MODIFICADO
   } */
@@ -263,16 +269,15 @@ h2 {
     padding: 0em;
   }
   
-  /* ESTO FUE MODIFICADO
-  } */
   .text-justify {
    padding: 1em;
   }
-
+  #habilidades, #tecno {
+    padding: 8px;
+    width: auto;
+  }
   .images {
-    /* ESTO FUE MODIFICADO
-  } */
-    padding: 0em;
+    padding: 0em 1em;
   }
 
   .info {
