@@ -74,7 +74,7 @@ nav .c-1:hover, nav .c-2:hover , nav .c-3:hover {
 #photo-perfil {
   width: 10em;
   height: 12em;
-  margin-top: 2em;
+  margin-top: 14em;
   margin-bottom: 2em;
   overflow: hidden;
 }
@@ -230,6 +230,11 @@ h2 {
   .title {
     margin-top: 27%;
   }
+  
+  #photo-perfil {
+    margin-top: 2em;
+  }
+
 }
 
 @media screen and (max-width:575px) {
