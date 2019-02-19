@@ -1,177 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header class="heade col-12 navbar-static-top">
-      <div class="container">
-        <div class="nav row rounded align-items-strech justify-content-between"> 
-          <!-- Nombre y ocupación -->
-          <div class="col-md-12 col-lg name d-flex align-items-center justify-content-center justify-content-lg-start">
-            <h1><i class="fas fa-spa"></i> Elianet Hernández<i class="fas fa-spa"></i></h1>
-            <p>Front-End Developer </p>
-          </div>
-          <!-- Menú -->
-          <nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
-            <a href="#perfil" class="c-1 d-flex align-items-center"> 
-              <div class="d-flex flex-column text-center"> 
-                Acerca de mí <i class="far fa-grin-alt"></i> 
-              </div> 
-            </a>
-            <a href="#portafolio" class="c-2 d-flex align-items-center"> 
-              <div class="d-flex flex-column text-center">
-                Portafolio <i class="fas fa-briefcase"></i> 
-              </div> 
-            </a>
-            <a href="#contacto" class="c-3 d-flex align-items-center"> 
-              <div class="d-flex flex-column text-center">
-                Contacto <i class="fas fa-envelope"></i> 
-              </div> 
-            </a>
-          </nav>
-        </div>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>MarEly</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light" id="containerNavbar">
+      <a id="name">Elianet Hernández</a>
+      <a>Front-End Developer</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item d-flex justify-content-end">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item d-flex justify-content-end">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item d-flex justify-content-end">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item d-flex justify-content-end">
+            <a class="nav-link" href="#">Disabled</a>
+          </li>
+        </ul>
       </div>
-    </header>
-    <main id="main-top">
-      <div class="container">
-      <!-- Perfil -->
+    </nav>
+  </header>
+  <section id="containerSection">
+    <div>
+      <div>
         <div>
-          <div>
-            <a id="top-perfil" name="perfil"></a>
-            <p class="title">PERFIL</p>
-            <div class="perfil row perfil-user align-items-center">
-              <div class="col-12 col-lg-4  photo">
-                <img id="photo-perfil" src="assets/images/photo.jpg" class="rounded-circle img-fluid" alt="foto">
-              </div>
-              <div class="col-12 col-lg-8 acerca">
-                <h2 class="text-center">Acerca de mí</h2>
-                <p class="acerca-de-mi text-justify">
-                  Soy una desarrolladora Frontend, me apasiono por lo que hago
-                  que hago dando simpre lo mejor de mí. Afronto los distintos retos
-                  con actitud positiva. Soy una persona autodidacta. Mis pasatiempos
-                  son leer y los videojuegos.
-                </p>
-                <div class="list">
-                  <div>
-                    <p class="label">Habilidades</p>
-                    <ul id="habilidades">
-                      <li>Trabajo en equipo</li>
-                      <li>Habilidad de toma de decisiones</li>
-                      <li>Creatividad</li>
-                      <li>Comunicación efectiva</li>
-                      <li>Empatía</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <p class="label">Tecnologías</p>
-                    <ul id="tecno">
-                      <li>JavaScript(ES6)</li>
-                      <li>Angular</li>
-                      <li>Bootstrap</li>
-                      <li>Firebase</li>
-                      <li>Metologías ágiles</li>
-                      <a name="portafolio"></a>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      <!-- Portafolio -->
-        <div class="row">
-          <div class="col">
+          <p>Un texto es una composición de signos codificados en un sistema de escritura que forma una unidad de sentido.
+
+            También es una composición de caracteres imprimibles (con grafema) generados por un algoritmo de cifrado que, aunque no tienen sentido para cualquier persona, sí puede ser descifrado por su destinatario original. En otras palabras, un texto es un entramado de signos con una intención comunicativa que adquiere sentido en determinado contexto.
             
-            <p class="title">PORTAFOLIO</p>
-            <div class="row images justify-content-center">
-              <div class="col-12 col-lg-6 conta-imagen">
-                <a>
-                  <img src="assets/images/cifrado.JPG" class="img-fluid imagen" alt="cifrado">
-                  <p class="info">CIFRADO CÉSAR</p>
-                  <p class="info info2">
-                    Se introduce una palabra que se quiera cifrar, y un offset que es la posición que 
-                    queremos que la letra se mueva en el alfabeto.
-                    Para mas detalle entra al siguiente enlace.
-                    <a id="cesar" class="links-git" target="_blank" href="https://github.com/marelywoody/cesarCifrado">
-                      <button type="button" class="btn btn-dark align-items-center">REPOSITORIO</button>
-                    </a>
-                  </p>
-                </a>
-              </div>
-              <div class="col-12 col-lg-6 conta-imagen">
-                <a>
-                  <img src="assets/images/dashboard.JPG" class="img-fluid imagen" alt="data dashboard">
-                  <p class="info">DATA DASHBOARD</p>
-                  <p class="info info2">
-                    En el data dashboard manipule y visualice información,
-                    mostrandoce según las necesidades del usuario.
-                    Para mas detalle entra al siguiente enlace.
-                    <a id="data" class="links-git" target="_blank" href="https://github.com/marelywoody/cdmx-2018-06-bc-core-am-data-dashboard">
-                      <button type="button" class="btn btn-dark">REPOSITORIO</button>
-                    </a>
-                  </p>
-                </a>
-              </div>
-              <div class="col-12 col-lg-6 conta-imagen">
-                <a>
-                  <img src="assets/images/registro.JPG" class="img-fluid imagen" alt="registro de visitantes">
-                  <p class="info">REGISTRO DE VISITANTES</p>
-                  <p class="info info2"> 
-                    En el regitro se pide el ingreso de datos, para llevar un control de ingreso 
-                    de visitantes y guardando estos datos en una base de datos.
-                    Para mas detalle entra al siguiente enlace.
-                    <a id="registro" class="links-git" target="_blank" href="https://github.com/marelywoody/Registro-de-visitantes">
-                      <button type="button" class="btn btn-dark">REPOSITORIO</button>
-                    </a>
-                  </p>
-                </a>
-              </div> 
-              <div class="col-12 col-lg-6 conta-imagen">
-                <a>
-                  <img src="assets/images/social.jpg" class="img-fluid imagen" alt="red social">
-                  <p class="info">RED SOCIAL</p>
-                  <p class="info info2">
-                    La red social te pide un regitro o una cuenta ya registrada 
-                    para acceder al muro.
-                    Para mas detalle entra al siguiente enlace.
-                    <a id="social" class="links-git" target="_blank" href="https://github.com/marelywoody/cdmx-social-network-frameworks">
-                      <button type="button" class="btn btn-dark">REPOSITORIO</button>
-                    </a>
-                  </p>
-                </a>
-              </div>
-            </div>
-          </div>
+            Las ideas esenciales que comunica un texto están contenidas en lo que se suele denominar «macroproposiciones», unidades estructurales de nivel superior o global, que otorgan coherencia al texto constituyendo su hilo central, el esqueleto estructural que cohesiona elementos lingüísticos formales de alto nivel, como los títulos y subtítulos, la secuencia de párrafos, etc. En contraste, las «microproposiciones» son los elementos coadyuvantes de la cohesión de un texto, pero a nivel más particular o local. Esta distinción fue realizada por Teun van Dijk en 1980.1​
+            
+            El nivel microestructural o local está asociado con el concepto de cohesión. Se refiere a uno de los fenómenos propios de la coherencia, el de las relaciones particulares y locales que se dan entre elementos lingüísticos, tanto los que remiten unos a otros como los que tienen la función de conectar y organizar. También es un conjunto de oraciones agrupadas en párrafos que habla de un tema determinado.
+          </p>
+          <p>
+            Un texto es una composición de signos codificados en un sistema de escritura que forma una unidad de sentido.
+
+También es una composición de caracteres imprimibles (con grafema) generados por un algoritmo de cifrado que, aunque no tienen sentido para cualquier persona, sí puede ser descifrado por su destinatario original. En otras palabras, un texto es un entramado de signos con una intención comunicativa que adquiere sentido en determinado contexto.
+
+Las ideas esenciales que comunica un texto están contenidas en lo que se suele denominar «macroproposiciones», unidades estructurales de nivel superior o global, que otorgan coherencia al texto constituyendo su hilo central, el esqueleto estructural que cohesiona elementos lingüísticos formales de alto nivel, como los títulos y subtítulos, la secuencia de párrafos, etc. En contraste, las «microproposiciones» son los elementos coadyuvantes de la cohesión de un texto, pero a nivel más particular o local. Esta distinción fue realizada por Teun van Dijk en 1980.1​
+
+El nivel microestructural o local está asociado con el concepto de cohesión. Se refiere a uno de los fenómenos propios de la coherencia, el de las relaciones particulares y locales que se dan entre elementos lingüísticos, tanto los que remiten unos a otros como los que tienen la función de conectar y organizar. También es un conjunto de oraciones agrupadas en párrafos que habla de un tema determinado.
+          </p>
+          <p>
+            Un texto es una composición de signos codificados en un sistema de escritura que forma una unidad de sentido.
+
+También es una composición de caracteres imprimibles (con grafema) generados por un algoritmo de cifrado que, aunque no tienen sentido para cualquier persona, sí puede ser descifrado por su destinatario original. En otras palabras, un texto es un entramado de signos con una intención comunicativa que adquiere sentido en determinado contexto.
+
+Las ideas esenciales que comunica un texto están contenidas en lo que se suele denominar «macroproposiciones», unidades estructurales de nivel superior o global, que otorgan coherencia al texto constituyendo su hilo central, el esqueleto estructural que cohesiona elementos lingüísticos formales de alto nivel, como los títulos y subtítulos, la secuencia de párrafos, etc. En contraste, las «microproposiciones» son los elementos coadyuvantes de la cohesión de un texto, pero a nivel más particular o local. Esta distinción fue realizada por Teun van Dijk en 1980.1​
+
+El nivel microestructural o local está asociado con el concepto de cohesión. Se refiere a uno de los fenómenos propios de la coherencia, el de las relaciones particulares y locales que se dan entre elementos lingüísticos, tanto los que remiten unos a otros como los que tienen la función de conectar y organizar. También es un conjunto de oraciones agrupadas en párrafos que habla de un tema determinado.
+          </p>
         </div>
       </div>
-    </main>
-    <footer>
-      <div class="container">
+    </div>
+  </section>
+  <footer>
+    <div>
+      <div>
         <div>
-          <div>
-            <p class="title">CONTACTO</p>
-            <div class="row links justify-content-center">
-              <div class="col-auto">
-                <a href="https://github.com/marelywoody" target="_blank" id="github" class="fab fa-github icono"></a>
-                <a href="https://www.linkedin.com/in/elianethernandez" target="_blank" id="linkedin" class="fab fa-linkedin icono"></a>
-                <a href="assets/documents/cv.pdf" target="_blank" class="icono" id="cv">CV</a>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
-      <a name="contacto"></a>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
