@@ -7,7 +7,7 @@ header {
   width: 100%;
   overflow: hidden;
   /* background-image: linear-gradient(to right, rgba(9, 161, 128), rgba(18, 46, 100)); */
-  background-image: url('../assets/images/flecha.JPG');
+  background-image: url('../assets/images/galax.jpg');
   color: rgb(213, 221, 243);
   position: fixed;
 }
@@ -17,11 +17,16 @@ header {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: rgb(181, 192, 28);
+  color: rgb(35, 228, 186);
 }
+
+.navbar-light .navbar-nav .nav-link:active {
+  color: #E7E8E8;
+}
+
 .navbar-light .navbar-toggler {
   color: rgba(240, 226, 226, 0.952);
-  border-color: rgba(73, 208, 212, 0.733);
+  border-color: rgb(247, 247, 247);
 }
 
 #containerSection {
@@ -30,4 +35,4 @@ header {
   margin: auto;
 }
 
-@media
+/* @media */
