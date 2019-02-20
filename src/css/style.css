@@ -6,8 +6,8 @@ header {
   font-family: 'Cabin Condensed', sans-serif;
   width: 100%;
   overflow: hidden;
-  /* background-image: linear-gradient(to right, rgba(9, 161, 128), rgba(18, 46, 100)); */
-  background-image: url('../assets/images/galax.jpg');
+  background-image: linear-gradient(to right, rgba(9, 161, 128), rgba(18, 46, 100));
+  /* background-image: url('../assets/images/galax.jpg'); */
   color: rgb(213, 221, 243);
   position: fixed;
   z-index: 100;
@@ -36,9 +36,10 @@ header {
 .navbar-light .navbar-toggler {
   color: rgba(240, 226, 226, 0.952);
   border-color: rgb(247, 247, 247);
+  background: rgba(101, 151, 201, 0.5);
 }
 
-#containerSection {
+#container-section {
   overflow: hidden;
   width: 90%;
   margin: auto;
@@ -46,7 +47,10 @@ header {
 }
 
 @media screen and (max-width:991px) {
-  
+  #container-name {
+    width: 60%;
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width:575px) {
